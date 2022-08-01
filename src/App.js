@@ -1,9 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import coffee from './coffee.png'
+import Navbar from './components/Navbar.js'
 
 function App() {
   return (
     <div className="App">
+      <Navbar 
+        logoCoffee={coffee}
+        home="Home"
+        origin="Origin"
+        cultivating="Cultivating"
+        types="Types"
+      />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

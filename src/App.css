@@ -22,7 +22,8 @@
 
 .header {
     background-image: url('./pexels-aphiwat-chuangchoem-437716.jpg');
-    min-height: 100vh;
+    min-height: 110vh;
+    width: 99vw;
     display: flex;
     flex-direction: column;
     align-items: center;

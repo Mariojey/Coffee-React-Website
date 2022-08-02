@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import coffee from './coffee.png'
 import Navbar from './components/Navbar.js'
+import Header from './components/Header.js'
 
 function App() {
   return (
@@ -13,7 +14,15 @@ function App() {
         cultivating="Cultivating"
         types="Types"
       />
-      <header className="App-header">
+      <Header />
+      
+    </div>
+  );
+}
+
+export default App;
+
+/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -27,8 +36,4 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
-
-export default App;
+*/

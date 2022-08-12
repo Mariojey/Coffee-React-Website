@@ -187,3 +187,28 @@
     text-decoration: none;
     color: black;
 }
+
+.sectionContent {
+    height: 100%;
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sectionImage {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOrigin {
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: row;
+}

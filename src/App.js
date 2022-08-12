@@ -3,8 +3,13 @@ import './App.css';
 import coffee from './coffee.png'
 import Navbar from './components/Navbar.js'
 import Header from './components/Header.js'
+import Section from './components/Section.js'
+//import dataOrigin from './dataOrigin'
 
 function App() {
+
+  
+
   return (
     <div className="App">
       <Navbar 
@@ -15,7 +20,11 @@ function App() {
         types="Types"
       />
       <Header />
-      
+      <Section 
+        title="World production"
+        description="At least 20 to 25 million families around the world make a living from growing coffee. With an assumed average family size of five people, more than 100 million people are dependent on coffee growing. A total of 10.3 million tons of green coffee were harvested worldwide in 2018."
+        coverImg='./pexels-min-an-770318.jpg'
+      />
     </div>
   );
 }

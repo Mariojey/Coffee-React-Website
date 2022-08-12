@@ -15,7 +15,7 @@ function Navbar(props){
                         <a href="#" className="nav--link">{props.home}</a>
                     </li>
                     <li className="nav--item">
-                        <a href="#" className="nav--link">{props.origin}</a>
+                        <a href="#sectionOrigin" className="nav--link">{props.origin}</a>
                     </li>
                     <li className="nav--item">
                         <a href="#" className="nav--link">{props.cultivating}</a>

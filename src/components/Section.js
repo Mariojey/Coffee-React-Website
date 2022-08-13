@@ -2,7 +2,7 @@ import React from "react"
 import '../App.css'
 
 export default function Section(props){
-
+    return(
 
     <div id="sectionOrigin" className="secionOrigin">
         <div className="sectionContent">
@@ -15,4 +15,5 @@ export default function Section(props){
         
         <div className="originHeaderContent"></div>
     </div>
+    )
 }

@@ -6,9 +6,12 @@
 }
 
 .App {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
+
+/*
 .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -19,6 +22,7 @@
         animation: App-logo-spin infinite 20s linear;
     }
 }
+*/
 
 .header {
     background-image: url('./pexels-aphiwat-chuangchoem-437716.jpg');
@@ -94,45 +98,6 @@
     color: #61dafb;
 }
 
-
-/*ANIMATIONS*/
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes scrollDown {
-    0% {
-        -webkit-transform: rotate(-45deg) translate(0, 0);
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
-        opacity: 0;
-    }
-}
-
-@keyframes scrollDown {
-    0% {
-        transform: rotate(-45deg) translate(0, 0);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        transform: rotate(-45deg) translate(-20px, 20px);
-        opacity: 0;
-    }
-}
-
 .navbar--container {
     width: 98vw;
     height: 20%;
@@ -188,8 +153,16 @@
     color: black;
 }
 
+.sectionOrigin {
+    width: 99vw;
+    min-height: 99vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
 .sectionContent {
-    height: 100%;
+    min-height: 100%;
     width: 40%;
     color: white;
     display: flex;
@@ -206,9 +179,48 @@
     align-items: center;
 }
 
-.sectionOrigin {
-    width: 99vw;
-    height: 99vh;
-    display: flex;
-    flex-direction: row;
+.sectionOriginImage {
+    width: 80%;
+    height: 60%;
+    border-radius: 12px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+/*ANIMATIONS*/
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes scrollDown {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+@keyframes scrollDown {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
 }
